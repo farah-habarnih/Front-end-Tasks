@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise #3-Registration Form</title>
+    <style>
+    fieldset {
+        border:2px solid #000;
+    background-color:#FEF9E7;
+    width:20%;
+    margin-left:15%;
+    }
+    
+    </style>
+    </head>
+    <body>
+    
+    <h2>Registration Form</h2>
+    <fieldset>
+      <legend>Personal details</legend>
+     <form style="text-align: center;">
+            <label for="fname">First name:</label>
+             <input type="text" name="fname"><br><br>
+             <label for="lname">Last name:</label>
+             <input type="text" name="lname"><br><br>
+             <label for="email">Email Address:</label>
+             <input type="email" name="email"><br><br>
+             <label for="Gender">Gender:</label>
+             <input type="radio" name="Gender">
+             <label for="Gender">Male</label>
+             <input type="radio" name="Gender">
+             <label for="Gender">Female</label><br><br>
+          </form>
+    </fieldset>
+    <fieldset>
+      <legend>City</legend>
+      <label for="browser" style="margin-left:20%;">City:</label>
+             <input list="browsers" name="browser" id="browser" value="Amman">
+            <datalist id="browsers">
+             <option value="Amman">
+            <option value="Zarqa">
+            <option value="Irbid">
+            <option value="Mafraq">
+            <option value="Jerash">
+            <option value="Aqaba">
+            <option value="Karak">
+            <option value="Ajloun">
+            <option value="Tafilah">
+            <option value="Maán">
+            <option value="Balqaá">
+            <option value="Madaba">
+            </datalist> <br><br>
+    </fieldset>
+    <br>
+     <input type="submit" value="Subscribe" style="margin-left:22%;">
+    </body>
+    </html>
